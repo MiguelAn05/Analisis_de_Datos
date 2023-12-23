@@ -48,3 +48,5 @@ mujeres_fumadoras = df[(df['is_male'] == 0) & (df['is_smoker'] == 1)].shape[0]
 
 print(f'Hombres fumadores: {hombres_fumadores}')
 print(f'Mujeres fumadoras: {mujeres_fumadoras}')
+
+
